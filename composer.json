@@ -1,6 +1,6 @@
 {
-	"name": "webbeest/content",
-	"description": "Content recipe for Drupal 11",
+	"name": "webbeest/paragraphs",
+	"description": "Paragraphs recipe for Drupal 11",
 	"type": "drupal-recipe",
 	"license": "GPL-2.0-or-later",
 	"authors": [
