@@ -2,20 +2,33 @@ name: "Web-Beest - Paragraphs"
 description: "Paragraph types" 
 type: "Admin"
 install:
+  - ckeditor5
+  - editor
+  - filter
+  - media
   - options
   - paragraphs
+  - video_embed_field
+  - video_embed_media
 config:
   import:
+    ckeditor5: '*'
+    editor: '*'
+    filter: '*'
+    media: '*'
     paragraphs: '*'
+    video_embed_field: '*'
+    video_embed_media: '*'
   strict: false
   actions:
     user.role.administrator:
       createIfNotExists:
         label: 'Administrator'
       grantPermissions:
-        - 'masquerade as any user'
+        - 'use text format full_html'
     user.role.editor:
       createIfNotExists:
         label: 'Editor'
       grantPermissions:
-        - 'view deleted entities'
+        - 'use text format full_html'
+
