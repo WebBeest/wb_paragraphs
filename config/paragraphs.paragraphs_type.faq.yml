@@ -1,0 +1,10 @@
+uuid: bb1fa165-ba03-4b0d-a368-aea336e458e5
+langcode: en
+status: true
+dependencies: {  }
+id: faq
+label: FAQ
+icon_uuid: null
+icon_default: null
+description: 'Add questions & answers in a structured way'
+behavior_plugins: {  }

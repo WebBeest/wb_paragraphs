@@ -1,0 +1,19 @@
+uuid: 58027aff-5fdb-446d-b94f-99451d8b53dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_subtitle
+    - paragraphs.paragraphs_type.faq
+id: paragraph.faq.field_p_subtitle
+field_name: field_p_subtitle
+entity_type: paragraph
+bundle: faq
+label: Subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
