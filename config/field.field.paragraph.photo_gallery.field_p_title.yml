@@ -1,0 +1,19 @@
+uuid: 96d196f8-aad0-4f74-95a8-9763036b9cac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_title
+    - paragraphs.paragraphs_type.photo_gallery
+id: paragraph.photo_gallery.field_p_title
+field_name: field_p_title
+entity_type: paragraph
+bundle: photo_gallery
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 7e54603b-c04f-4878-ad0d-003e700def22
+langcode: en
+status: true
+dependencies: {  }
+id: photo_gallery
+label: 'Photo gallery'
+icon_uuid: null
+icon_default: null
+description: 'A grid of visuals'
+behavior_plugins: {  }

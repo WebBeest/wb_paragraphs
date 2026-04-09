@@ -1,0 +1,67 @@
+uuid: a33136ba-e962-4227-a084-4cbc7cef1803
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photo_gallery.field_p_button
+    - field.field.paragraph.photo_gallery.field_p_images_unlimited
+    - field.field.paragraph.photo_gallery.field_p_load_more
+    - field.field.paragraph.photo_gallery.field_p_subtitle
+    - field.field.paragraph.photo_gallery.field_p_teaser
+    - field.field.paragraph.photo_gallery.field_p_title
+    - field.field.paragraph.photo_gallery.field_p_view_mode_gallery
+    - paragraphs.paragraphs_type.photo_gallery
+  module:
+    - image
+id: paragraph.photo_gallery.default
+targetEntityType: paragraph
+bundle: photo_gallery
+mode: default
+content:
+  field_p_images_unlimited:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_p_load_more:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_p_subtitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_p_teaser:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_p_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_p_button: true
+  field_p_view_mode_gallery: true
