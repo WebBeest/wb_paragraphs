@@ -10,6 +10,7 @@ install:
   - paragraphs
   - video_embed_field
   - video_embed_media
+  - viewsreference
   - webform
 config:
   import:
@@ -20,6 +21,7 @@ config:
     paragraphs: '*'
     video_embed_field: '*'
     video_embed_media: '*'
+    viewsreference: '*'
     webform: '*'
   strict: false
   actions:

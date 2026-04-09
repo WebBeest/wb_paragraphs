@@ -1,0 +1,29 @@
+uuid: f5f239e2-cb65-4ed4-95ca-35b1cf63c0be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_overview
+    - paragraphs.paragraphs_type.overview
+  module:
+    - viewsreference
+id: paragraph.overview.field_p_overview
+field_name: field_p_overview
+entity_type: paragraph
+bundle: overview
+label: Overview
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    embed: embed
+  preselect_views: {  }
+  enabled_settings: {  }
+field_type: viewsreference
