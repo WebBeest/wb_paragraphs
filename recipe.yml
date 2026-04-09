@@ -10,6 +10,7 @@ install:
   - paragraphs
   - video_embed_field
   - video_embed_media
+  - webform
 config:
   import:
     ckeditor5: '*'
@@ -19,8 +20,13 @@ config:
     paragraphs: '*'
     video_embed_field: '*'
     video_embed_media: '*'
+    webform: '*'
   strict: false
   actions:
+    user.role.authenticated:
+      grantPermissions:
+        - 'use text format webform_default'
+        - 'view media'
     user.role.administrator:
       createIfNotExists:
         label: 'Administrator'
