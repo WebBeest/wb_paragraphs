@@ -1,0 +1,19 @@
+uuid: 04d6c02f-8cb0-41e1-87c2-ad3d8804a6b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - video_embed_field
+id: paragraph.field_p_video
+field_name: field_p_video
+entity_type: paragraph
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: d6f71920-c873-42ce-858f-4c15d9144a12
+langcode: en
+status: true
+dependencies: {  }
+id: text_image
+label: 'Text - image'
+icon_uuid: null
+icon_default: null
+description: 'Add a block of text paired with a visual or video'
+behavior_plugins: {  }
