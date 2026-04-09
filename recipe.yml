@@ -1,0 +1,21 @@
+name: "Web-Beest - Paragraphs"
+description: "Paragraph types" 
+type: "Admin"
+install:
+  - options
+  - paragraphs
+config:
+  import:
+    paragraphs: '*'
+  strict: false
+  actions:
+    user.role.administrator:
+      createIfNotExists:
+        label: 'Administrator'
+      grantPermissions:
+        - 'masquerade as any user'
+    user.role.editor:
+      createIfNotExists:
+        label: 'Editor'
+      grantPermissions:
+        - 'view deleted entities'
